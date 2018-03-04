@@ -1,7 +1,4 @@
-
-
-//------------------------------------------
-var pixgrid = function() {
+/*------------------------banner---Ashish---------------------------------------*/var pixgrid = function() {
     function centerImage(theImage) {
         var myDifX = (window.innerWidth - theImage.width) / 2, myDifY = (window.innerHeight - theImage.height) / 2;
         return theImage.style.top = myDifY + "px", theImage.style.left = myDifX + "px", 
@@ -36,10 +33,7 @@ var pixgrid = function() {
             }
         }, !1);
     }
-}();
-
-//------------------------------------------
-var rclick = function() {
+}();/*---------------------------separator---Ashish--------------------------------------------*/var rclick = function() {
   var myNodes = document.querySelectorAll(".rclick");
  
   for (var i=0; i<myNodes.length; i++) {
@@ -74,10 +68,7 @@ var rclick = function() {
       } // check to see that I clicked on IMG only
     }, false); // click event
   }
-}(); //anonymous closure
-
-//------------------------------------------
-$(function() {
+}(); //anonymous closure/*---------------------------separator---Ashish--------------------------------------------*/$(function() {
 
 	$('.tagline').append('The most creative minds in Art');
 
